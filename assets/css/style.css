@@ -28,7 +28,7 @@ body {
 
 .page1 {
   background-color: #bdcb20;
-  padding: 25% 5% 5% 5%;
+  padding: 25% 5% 0 5%;
 }
 
 .title {
@@ -61,8 +61,51 @@ body {
   background: #ffffff;
   box-shadow: 0px 15px 45px rgba(0, 0, 0, 0.2);
   border-radius: 30px;
-  display:flex;
+  display: flex;
   justify-content: space-between;
-  padding:3% 6%;
-  align-items:center;
+  padding: 4% 3% 4% 6%;
+  align-items: center;
 }
+
+.radius {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 1.71429px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin:5% 0 2% 0;
+}
+
+.radius span {
+    text-transform: none;
+}
+
+input[type="range"] {
+    margin-bottom:4%;
+}
+
+/* ===============================MAIN=============================== */
+
+.listtype {
+    display:flex;
+    width:100%;
+}
+
+.listtype div {
+    width:50%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    padding:1%;
+    border-radius: 0px 0px 8px 8px;
+}
+
+.listtype div:first-of-type {
+    background: #DDE86B;
+}
+
+.listtype div:nth-of-type(2) {
+    background-color: #ffffff;
+}
+
