@@ -94,7 +94,7 @@ nav {
   justify-content: space-around;
   align-items: flex-end;
   background-color: #ffffff;
-  width:375px;
+  width: 375px;
 }
 
 nav img {
@@ -124,19 +124,19 @@ nav div {
 }
 
 .searchbutton div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top:-25%;
-  height:55px;
-  width:55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -25%;
+  height: 55px;
+  width: 55px;
   background: #bdcb20;
   box-shadow: 0px 2px 38px rgba(0, 0, 0, 0.3);
   border-radius: 30px;
 }
 
 .searchbutton p {
-    margin-top:10%;
+  margin-top: 10%;
 }
 
 /* ===============================MAIN=============================== */
@@ -245,5 +245,63 @@ article:nth-of-type(3) {
 
 article:last-of-type {
   background-image: url("../img/baumhaus.png");
-  margin-bottom:18%;
+  margin-bottom: 18%;
+}
+
+.linktodetails {
+  text-decoration: none;
+}
+
+/* ==============================DETAILS PAGE=============================== */
+
+.bauernhofdetails {
+  width: 375px;
+}
+
+.bauernhofdetailspicture {
+  object-fit: cover;
+  width: 375px;
+  height: 531px;
+}
+
+.bauernhofbasicinfo {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+
+.bauernhofdetails h2 {
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 100%;
+  color: #424753;
+}
+
+.exactlocation {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.exactlocation img {
+  width: 10.19px;
+  height: 13.78px;
+  margin-right: 2%;
+}
+
+.exactlocation p {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #507488;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 140%;
+  color: #283a44;
+  margin-top:5%;
 }
