@@ -22,10 +22,6 @@ body {
   width: 375px;
 }
 
-main {
-    width:343px;
-}
-
 /* ===============================MAIN PAGE=============================== */
 
 /* ===============================HEADER=============================== */
@@ -78,46 +74,112 @@ main {
   letter-spacing: 1.71429px;
   text-transform: uppercase;
   color: #ffffff;
-  margin:5% 0 2% 0;
+  margin: 5% 0 2% 0;
 }
 
 .radius span {
-    text-transform: none;
+  text-transform: none;
 }
 
 input[type="range"] {
-    margin-bottom:4%;
+  margin-bottom: 4%;
 }
 
 /* ===============================MAIN=============================== */
 
 .listtype {
-    display:flex;
-    width:375px;
-    justify-content:center ;
+  display: flex;
+  width: 375px;
+  justify-content: center;
 }
 
 .listtype div {
-    width:50%;
-    display:flex;
-    justify-content: center;
-    align-items:center;
-    padding:1%;
-    border-radius: 0px 0px 8px 8px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1%;
+  border-radius: 0px 0px 8px 8px;
 }
 
 .listtype div:first-of-type {
-    background: #DDE86B;
+  background: #dde86b;
 }
 
 .listtype div:nth-of-type(2) {
-    background-color: #ffffff;
+  background-color: #ffffff;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 article {
-    height:264px;
+  height: 264px;
+  width: 343px;
+  background-repeat: no-repeat;
+  background-position: top center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.pindiv{
+    align-self:flex-end;
+    background-color: #ffffff;
+    margin-top:2%;
+    margin-right:2%;
+    height:30px;
+    width:30px;
+    display:flex;
+    justify-content: center;
+    border-radius: 100%;
+    align-items: center;
+    padding: 2% 0;
+}
+
+.pinicon {
+  width: 16px;
+  height: 16px;
+}
+
+.details {
+  border: 1px solid #cedbe2;
+  border-radius: 0 0 8px 8px;
+  border-top:none;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top:15%;
+  padding:5%;
+  padding-top:35%;
+}
+
+.details h2 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #283a44;
+}
+
+.details p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 140%;
+  color: #507488;
+}
+
+.refreshicon {
+    height:16px;
+    width:19.56px;
 }
 
 article:first-of-type {
     background-image: url("../img/idyllischerbauernhof.png");
+  }
+
+article:nth-of-type(2) {
+    background-image: url("../img/blumenwiese.png");
 }
