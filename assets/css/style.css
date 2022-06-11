@@ -231,19 +231,19 @@ article {
   width: 19.56px;
 }
 
-article:first-of-type {
+.search article:first-of-type {
   background-image: url("../img/idyllischerbauernhof.png");
 }
 
-article:nth-of-type(2) {
+.search article:nth-of-type(2) {
   background-image: url("../img/blumenwiese.png");
 }
 
-article:nth-of-type(3) {
+.search article:nth-of-type(3) {
   background-image: url("../img/beheiztejurte.png");
 }
 
-article:last-of-type {
+.search article:last-of-type {
   background-image: url("../img/baumhaus.png");
   margin-bottom: 18%;
 }
