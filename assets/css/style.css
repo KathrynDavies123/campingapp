@@ -165,13 +165,13 @@ nav div {
   background-color: #ffffff;
 }
 
-section {
+.search {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-article {
+.search article {
   height: 264px;
   width: 343px;
   background-repeat: no-repeat;
@@ -303,5 +303,156 @@ article {
   font-size: 12px;
   line-height: 140%;
   color: #283a44;
-  margin-top:5%;
+  margin-top: 5%;
+}
+
+/* ==============================RATINGS=============================== */
+
+.bewertungen {
+  display: flex;
+  justify-content: space-between;
+  margin: 10% 0 15% 0;
+}
+
+.bewertungen img {
+  width: 43px;
+  height: 43px;
+}
+
+.bewertungen div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #507488;
+  text-align: center;
+}
+
+.bewertungen div:last-of-type {
+  font-weight: 600;
+}
+
+.bewertungen p {
+  margin-top: 10%;
+}
+
+.bewertungen div:last-of-type p {
+  margin: 0;
+}
+
+/* ==============================AVAILABILITY=============================== */
+
+.availability h3 {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 1.71429px;
+  text-transform: uppercase;
+  color: #507488;
+}
+
+.availabledates {
+  display: flex;
+  justify-content: space-between;
+  margin: 3% 0 12% 0;
+}
+
+.availability p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 140%;
+  text-align: center;
+  color: #ebf1f3;
+  text-transform: uppercase;
+}
+
+.availability p:nth-child(2) {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.availabledates div {
+  width: 41.67px;
+  height: 41.67px;
+  border-radius: 20.8364px;
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.dategrey {
+  background-color: #cedbe2;
+}
+
+.dategreen {
+  background-color: #bdcb20;
+}
+
+/* ==============================AUSSTATTUNG=============================== */
+
+.ausstattung h3 {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 1.71429px;
+  text-transform: uppercase;
+  color: #507488;
+}
+
+.ausstattung p {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #f5f8f9;
+  background: #cedbe2;
+  border-radius: 16px;
+  padding: 1% 4%;
+}
+
+.ausstattung div {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 3% 0 12% 0;
+  width: 375px;
+  gap: 10px;
+}
+
+/* ==============================GASTGEBER=============================== */
+
+.gastgeber {
+  margin-bottom: 50%;
+}
+
+.gastgeber h3 {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 1.71429px;
+  text-transform: uppercase;
+  color: #507488;
+}
+
+.gastgeber div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 3%;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #283a44;
+}
+
+.gastgeber img {
+  height: 44px;
+  width: 44px;
+}
+
+.gastgeber p {
+  margin-left: 5%;
 }
