@@ -22,11 +22,15 @@ body {
   width: 375px;
 }
 
+main {
+    width:343px;
+}
+
 /* ===============================MAIN PAGE=============================== */
 
 /* ===============================HEADER=============================== */
 
-.page1 {
+.page1head {
   background-color: #bdcb20;
   padding: 25% 5% 0 5%;
 }
@@ -44,7 +48,7 @@ body {
   padding-right: 1%;
 }
 
-.page1 h1 {
+.page1head h1 {
   color: #ffffff;
   font-weight: 600;
   font-size: 21px;
@@ -89,7 +93,8 @@ input[type="range"] {
 
 .listtype {
     display:flex;
-    width:100%;
+    width:375px;
+    justify-content:center ;
 }
 
 .listtype div {
@@ -109,3 +114,10 @@ input[type="range"] {
     background-color: #ffffff;
 }
 
+article {
+    height:264px;
+}
+
+article:first-of-type {
+    background-image: url("../img/idyllischerbauernhof.png");
+}
