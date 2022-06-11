@@ -1,26 +1,68 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap");
 
 /* font-family: 'Raleway', sans-serif;
 font-family: 'Roboto', sans-serif; */
 
 * {
-    padding:0;
-    margin:0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 html {
-    font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 body {
-    display:flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .body {
-    max-width:576px;
+  width: 375px;
 }
 
+/* ===============================MAIN PAGE=============================== */
 
+/* ===============================HEADER=============================== */
 
+.page1 {
+  background-color: #bdcb20;
+  padding: 25% 5% 5% 5%;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5%;
+}
+
+.icons {
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 1%;
+}
+
+.page1 h1 {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 100%;
+}
+
+.searchbox {
+  color: #767f14;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 1.71429px;
+  text-transform: uppercase;
+  background: #ffffff;
+  box-shadow: 0px 15px 45px rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
+  display:flex;
+  justify-content: space-between;
+  padding:3% 6%;
+  align-items:center;
+}
