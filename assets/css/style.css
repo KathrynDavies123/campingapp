@@ -115,6 +115,14 @@ nav div {
   padding: 0 7% 5% 7%;
 }
 
+nav a {
+  text-decoration: none;
+}
+
+nav a:nth-of-type(2) {
+  padding: 0 7% 5% 7%;
+}
+
 .searchbutton {
   display: flex;
   flex-direction: column;
@@ -497,7 +505,7 @@ nav div {
   margin-right: 3%;
 }
 
-/* ==============================FOOTER=============================== */
+/* ==============================CONTACT=============================== */
 
 .contact {
   margin-bottom: 30%;
@@ -526,9 +534,9 @@ nav div {
 }
 
 .contactbuttons {
-    display:flex;
-    justify-content: space-between;
-    width:28%;
+  display: flex;
+  justify-content: space-between;
+  width: 28%;
 }
 
 h5 {
@@ -544,5 +552,42 @@ h5 {
   background: #ff7a00;
   box-shadow: 0px 15px 45px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
-  padding: 4% 8%;
+  padding: 4% 9%;
+  width: 50%;
+}
+
+/* ==============================PROFILE=============================== */
+
+.profileheader div div p:first-child {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 140%;
+  color: #424753;
+}
+
+.profileheader h2 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #424753;
+}
+
+.profileheader div div p:nth-of-type(2) {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 140%;
+  color: #9a9a9a;
+}
+
+h6 {
+  text-align: center;
+}
+
+.profileheader > div {
+  display: flex;
+}
+
+.profileheader > div > img {
+  width: 74px;
+  height: 74px;
 }
