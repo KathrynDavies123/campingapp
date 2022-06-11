@@ -22,6 +22,15 @@ body {
   width: 375px;
 }
 
+h3 {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 1.71429px;
+  text-transform: uppercase;
+  color: #507488;
+}
+
 /* ===============================MAIN PAGE=============================== */
 
 /* ===============================HEADER=============================== */
@@ -345,15 +354,6 @@ nav div {
 
 /* ==============================AVAILABILITY=============================== */
 
-.availability h3 {
-  font-weight: 700;
-  font-size: 12px;
-  line-height: 14px;
-  letter-spacing: 1.71429px;
-  text-transform: uppercase;
-  color: #507488;
-}
-
 .availabledates {
   display: flex;
   justify-content: space-between;
@@ -395,15 +395,6 @@ nav div {
 
 /* ==============================AUSSTATTUNG=============================== */
 
-.ausstattung h3 {
-  font-weight: 700;
-  font-size: 12px;
-  line-height: 14px;
-  letter-spacing: 1.71429px;
-  text-transform: uppercase;
-  color: #507488;
-}
-
 .ausstattung p {
   font-weight: 500;
   font-size: 12px;
@@ -425,16 +416,7 @@ nav div {
 /* ==============================GASTGEBER=============================== */
 
 .gastgeber {
-  margin-bottom: 50%;
-}
-
-.gastgeber h3 {
-  font-weight: 700;
-  font-size: 12px;
-  line-height: 14px;
-  letter-spacing: 1.71429px;
-  text-transform: uppercase;
-  color: #507488;
+  margin-bottom: 12%;
 }
 
 .gastgeber div {
@@ -455,4 +437,112 @@ nav div {
 
 .gastgeber p {
   margin-left: 5%;
+}
+
+/* ==============================EVENTS=============================== */
+
+.events {
+  margin-bottom: 12%;
+}
+
+.events > div {
+  display: flex;
+  align-items: center;
+  margin-top: 3%;
+}
+
+.events div div {
+  background-color: #bdcb20;
+  color: #ffffff;
+  width: 44px;
+  height: 44px;
+  border-radius: 100%;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.events p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 140%;
+  color: #507488;
+  margin-left: 3%;
+}
+
+.events span {
+  font-weight: 600;
+}
+
+/* ==============================ANFAHRT=============================== */
+
+.anfahrt {
+  margin-bottom: 12%;
+}
+
+.anfahrt div {
+  margin-top: 3%;
+  display: flex;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 140%;
+  color: #8e99af;
+  align-items: baseline;
+}
+
+.anfahrt p {
+  margin-right: 3%;
+}
+
+/* ==============================FOOTER=============================== */
+
+.contact {
+  margin-bottom: 30%;
+}
+
+.contactimg {
+  background: #bdcb20;
+  box-shadow: 0px 15px 45px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact img {
+  height: 16.47px;
+  width: 16.46px;
+}
+
+.contact > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contactbuttons {
+    display:flex;
+    justify-content: space-between;
+    width:28%;
+}
+
+h5 {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 1.71429px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #ff7a00;
+  box-shadow: 0px 15px 45px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 4% 8%;
 }
