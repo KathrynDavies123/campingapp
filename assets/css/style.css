@@ -183,3 +183,11 @@ article:first-of-type {
 article:nth-of-type(2) {
     background-image: url("../img/blumenwiese.png");
 }
+
+article:nth-of-type(3) {
+    background-image: url("../img/beheiztejurte.png");
+}
+
+article:last-of-type {
+    background-image: url("../img/baumhaus.png");
+}
